@@ -6,7 +6,7 @@ use Iseerg\TopWords\Facades\TopWords;
 use Iseerg\TopWords\Tests\TestCase;
 use Iseerg\TopWords\TopWordsServiceProvider;
 
-class TestDuplicatesFinder extends TestCase
+class DuplicatesFinderTest extends TestCase
 {
     /**
      * Test duplicates finder.

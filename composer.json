@@ -40,5 +40,8 @@
                 "TopWords": "Iseerg\\TopWords\\Facades\\TopWords"
             }
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }

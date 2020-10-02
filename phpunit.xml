@@ -12,7 +12,7 @@
     <testsuites>
         <testsuite name="Package">
             <directory suffix=".php">./src/tests/</directory>
-            <exclude>./src/tests/TestCase.php</exclude>
+            <exclude><file>./src/tests/TestCase.php</file></exclude>
         </testsuite>
     </testsuites>
     <filter>

@@ -22,7 +22,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Iseerg\\TopWords\\": "src/"
+            "Iseerg\\TopWords\\": "src/",
+            "Iseerg\\TopWords\\Tests\\": "tests"
         }
     },
     "autoload-dev": {

@@ -4,9 +4,8 @@
     "license": "license",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Serhii",
+            "email": "serhii.maznyi@gmail.com"
         }
     ],
     "homepage": "https://github.com/iseerg/topwords",

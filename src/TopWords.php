@@ -11,12 +11,18 @@ class TopWords
      */
     private string $regex;
 
+    /**
+     * @var string
+     */
+    private string $resultsLimit;
+
     private $result;
 
     public function __construct()
     {
         $this->result = null;
         $this->regex = self::REGEX;
+        $this->resultsLimit = config('topwords.results_limit');
     }
 
     /**
@@ -42,8 +48,8 @@ class TopWords
 
         $this->result = $grouped->map(function ($group, $key) {
             return $group->count() + 1;
-        })->sortDesc()->slice(0, 2);
-        
+        })->sortDesc()->slice(0, $this->resultsLimit);
+
         return $this;
     }
 

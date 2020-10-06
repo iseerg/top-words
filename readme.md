@@ -21,6 +21,12 @@ $ composer require iseerg/topwords
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
 
+## Configure
+
+``` bash
+Set results_limit to control the amout of rusults in the response.
+```
+
 ## Testing
 
 ``` bash

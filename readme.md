@@ -16,16 +16,14 @@ $ composer require iseerg/topwords
 ```
 
 ## Usage
+``` bash
+$ php artisan vendor:publish --provider="Iseerg\TopWords\TopWordsServiceProvider" --tag=topwords.config
+```
+Set results_limit to control the amout of rusults in the response.
 
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Configure
-
-``` bash
-Set results_limit to control the amout of rusults in the response.
-```
 
 ## Testing
 

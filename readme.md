@@ -41,7 +41,7 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [author name][link-author]
+- [Serhii Maznyi][link-author]
 - [All Contributors][link-contributors]
 
 ## License
